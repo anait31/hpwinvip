@@ -1,0 +1,223 @@
+/* Common CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Lexend', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Reusable component */
+
+.row {
+    max-width: 1124px;
+    margin: auto;
+}
+
+img {
+    cursor: pointer
+}
+
+/* Header Style */
+
+header {
+    background-image: url('../img/bg_home_fifa4.png');
+    height: 125vh;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+.input-area {
+    padding: 10px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.language {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.language img {
+    margin-bottom: -5px;
+}
+
+.forgot-pass a{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+
+}
+
+/* Nav style */
+
+nav {
+    display: flex;
+    margin-top: 20px;
+}
+
+nav ul {
+
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.banner-en {
+    width: 100%;
+    margin-top: 20px;
+}
+.banking {
+    width: 100%;
+}
+
+/* Sports CSS */
+#sports {
+    margin-top: 40px;
+}
+.sports-container {
+    display: flex;
+    gap: 40px;
+}
+
+.sports-items1 {
+    background-image: url('../img/sportnew.jpg');
+    background-size: cover;
+    width: 550px;
+    height: 400px;
+}
+
+.sports-inner-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px;
+}
+.sport1 img{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+.first-item h3 {
+    margin: 15px 0 10px 0;
+}
+.first-item p {
+    text-align: center;
+    margin-left: -80px;
+}
+.center-item {
+    text-align: center;
+}
+
+.last-item {
+    text-align: end;
+}
+.last-item p {
+    text-align: center;
+    margin-left: 65px;
+}
+.sports-items2 {
+    background-color: blanchedalmond;
+    width: 550px;
+    height: 400px;
+}
+.sports-container h2 {
+    font-weight: 500;
+    
+}
+
+.sports-container .center-item h4 {
+    font-weight: 500;
+    margin: 20px 0 10px 0;
+}
+
+.sports-container .center-item p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sports-container .center-item h3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 20px 0 40px 0;
+}
+
+.last-item h3 {
+    margin: 15px 0 10px 0;
+}
+
+.btn-bet {
+    color: #000;
+    background-color: antiquewhite;
+    font-size: 18px;
+    padding: 15px 23px;
+}
+
+.sports-items2 {
+    padding: 40px;
+    color: #000;
+    overflow: auto;
+}
+.news-container {
+    margin: 20px;
+}
+.news {
+    margin-bottom: -2px;
+}
+.news-items1 {
+    display: flex;
+    gap: 20px;
+
+}
+
+.news-items1 img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.text-box h5 {
+    margin: 15px 0 10px 0;
+}
+
+.text-box a {
+    text-decoration: none;
+
+}
